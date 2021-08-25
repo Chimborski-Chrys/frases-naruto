@@ -1,12 +1,12 @@
-import narutoImg from '../../images/naruto.png'
+import narutoImg from '../../images/naruto3.png'
 import styled from 'styled-components';
+import { Quotes } from '../../components';
 
 export function App() {
     return (
         <Content>
-            <p>Frase</p>
-            <button>Proxima</button>
-            <img src={narutoImg} alt="Naruto pode de vitoria" />
+            <Quotes quote={'ok'} speaker={'Speaker'} />
+            <NarutoImg src={narutoImg} alt="Naruto pode de vitoria" />
         </Content>
     );
 }
