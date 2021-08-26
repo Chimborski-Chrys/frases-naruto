@@ -26,9 +26,9 @@ align-items: center;
 `
 
 const Quote = styled.p`
-font-size:3em;
+font-size:2em;
 margin:0;
-color: black;
+color:  #ffffff;
 margin-bottom: 10px;
 `
 
